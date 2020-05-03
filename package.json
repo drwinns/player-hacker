@@ -1,0 +1,11 @@
+{
+  "name": "player-hacker",
+  "version": "1.0.0",
+  "description": "player hacker firebase webhook",
+  "main": "index.js",
+  "scripts": {
+    "test": "start"
+  },
+  "author": "winston",
+  "license": "ISC"
+}
