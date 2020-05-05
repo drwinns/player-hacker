@@ -7,9 +7,9 @@ import axios from 'axios';
 import { init, agent as agentHelper, entityEntryInterface } from 'dialogflow-helper';
 
 init({
-    "client_email": "dialogflow-ftjyeh@ygy1-living.iam.gserviceaccount.com",
-    "project_id": "ygy1-living",
-    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCyHXdiwXeKfw0I\nYd4IRhS0kJTanH5N9mtklJWqgXG6PoZcQ0FJYW07SHUlGaUSSGJVhYx1hkjBFD8j\n43NWvcJy32ByKEPy0wVwXHzGzJn7v3KNR9qIeXgjcZH6tZN194S2Ht7haTi22wDQ\nJzlN/bucSPhfaeyEP2jnOPh01Csu4HZGzN4be9moUdhY9VCLv9PKKgyaxO6NXtb/\nZhhqxaBbNMFGkJqvm4jf8Wz++4e5lRsJETFNzlQlRtbrCN8PRy11UPhB8SS+rFtL\nS/V3gXDajEHd9dnX7uaGSXAAnCQgZ8ZjPN4OaqsN1XC511SV7fAQkJK5w8DVYkxe\nVvUKv32TAgMBAAECggEACUnYwvv8hEAclDZTrNzIEaPZ5Lif1uhQhhNAPCm585DK\nfZ89lVpmUYl1dR+Bkz2BG0f2oN5a3EQhCCRsDGGi9U30Kp/c7e8r68XMSqsQJf0V\njTaVDTmVwUttOxoi/CuR7n7CTWuo+ygv7QBOpbmOAhgavmcOCtYqXfyDlcbGuw//\n6k8sKlNKNEY7dnkUxRmQPCBu35zARhyI+vnqY8oEe/vmXtDyhPn5GEQqWMch8yKo\nLq3Td9jFZ7G8V2wSotzwVSTs1uH/rGGmKd9E+EzDsGbhUMC9YjvsFQooF+qLy4/J\nqRqyykjkHarYRt/NpwgJS6A+DF1A3SrUVFXkfOBBeQKBgQDjWNKcD976wmvveCVs\n6AdQiNKLsBW7xAlqGbhHj8ov/+m4O7jqB5im8uV5pEY9xO4GU8/blkSxLsw6+Uno\nY6ABqUgR9QEfvAYnlOOxrEsNrP0XPPtlpoNrdY+bPkXe2mwjejBwQ5FIvpYvNGYL\ncs0obCF7hSows5pNpBw2Hf9TbwKBgQDIkDcLk8F8B/8/SmMiUkYuySTxWHkgJTs6\nDGM7qrzl1RWtLiYdhhemm7r7f4zpG8hQm1ZlpXFS1GL8iOxG0tXMFliZgy5MfbgD\nda6WXwtxWPYhyuVe0neqof+h6w/03gvS+3+KaEXw78VwlSQ+dpIJW/XrPaQIWQi5\nwK383RCWHQKBgHXfaJrnk6mZwhKPzX+wsZIszlUEf9AxbNwo56WaxK6sVcZimJYm\nSBxPFXFDHfQKtYpsS/nC6GyhIdx1wb8OYDhcR3Sf/ewxNVOyW3eUJ/m4NiSlRobG\nlZ7Sfhl0aQ+JWcXvJUwfjCUWQ5HH7hyDciFCJv3+5ggIJrmYm9PnK6lbAoGBAI6J\nb5VavPdY954TT8Dkl9xIN2kOZ4bg7uaiRyPwg68TcQRS9+OjmMtfgdObIpnIlOQ0\ngYJbwd4L8w1mggUTcb5JY042XIEgF9bdm+ZiRc+YWdRKThjFmyY5W2PHmt97rwuS\nkWHcGVjSDo+kbs21lrPwFyXH+Pu1yu24ce5zbYZBAoGAMM5XAGGT9fVHoo7rnCOu\nQu84qI6j6EFgQkNhmSglvvycPP2OFy+TIDBKDUEmF1SSpy77OmtnQNI7FvzdIddH\nETAQS1Ce0EA0BoIbtDhDC0BRqNa/xA/BNrics1ULmTODAL0OrSEBacTSR9UrvW16\nEJR4YIZbTXt5fFFMmgwjwfA=\n-----END PRIVATE KEY-----\n",
+    "client_email": " dialogflow-binwjd@apologetic-robot-fiajxe.iam.gserviceaccount.com",
+    "project_id": "apologetic-robot-fiajxe",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDN5RmwlHj8NJVK\npCgVTojIMDB+IvNHXmAHZp6Zl/4qAF4lky9ntAHK7VCWL1/kh4Oou01TXkzPvUGQ\nSyE/u0a/BWSosXS7lgxNAmLhqqtPhFzOO6iFR7ZVWfdgjh7pBe4LbIEdLTAr1179\nvlwq96Vuc0qR5+kt17uPiu72GnpitJrxZsasjyTYl9PP0c/aUIjnIVFgyjrLAQkZ\ncDmZAmDlL9gzGSb2bSTzf0w6zfm/1MuBzCSF3uYK82y2XhcJOXyIadaul/BbdPZP\nb1Z/BOjZzt+9JqQGvsfOJ13Uk3B/UujaC9BrWajmzn/cXi/68w13RYF7prswH2E8\nTxLiW3H5AgMBAAECggEABz0Gqi6OEk/G79jVj+oy5NbM3aJc6yVmOtxgtwWg6dkZ\ndji2ce7iIUA2lREVTfN1rXjoPwYRrTv6EhiSEquC0TRfVY7ni7C6vfpXf5eAbks4\n+Acg5Y6f2mBPUhWtAIQ02jH2WBA+oUvxCvqmQtxx9HAZLwf4KqRq86DuxbgolU+z\n8Vd5jSTdhkSbL3J5ECtpiyXqx5+wgwhT4ryhEqhNYD0iNR7Wi3mSu/TuRcilokTj\nGQLv8ypd8D3EMyAAqBsKfjHsgP2M0GciQDOk3Fei1sGwdtP3uOOqMTJ2G/j2fFes\nn/ziHHJMoEzopiwsY++yMN4Fut0zXBN31di03H2AAQKBgQD4eFrpgRm62UDsRDvm\ncp1sIZzACJoh2lz3KbGKtgszjmDHf7+ojHBAJCRlsB1dRLeQNdvmZZ8EsYmLep1x\nQho3EV9/+goQ+aAHGBpoyPoR/CRRNJr9HC/Y1dTNBqBkYVN/vcqZrqCRsBQ79qE3\nncpqlP9srDGKDa+zQOwDwpd7kQKBgQDUInHDxIYBpja+NLwTxzPPmSIhniK/v6ii\nfCHQvl5I1aQgczvA0t0XwEf8dl2QmfH3+X14HVNQK6sqBfPIbrYX/oy0moxWuIEV\ngx8IYRknC2KksrhB7qBebgcWT9SNTjO/XsD7CK1qewBhxvroWgm7tc48tj5HNwLM\n8nAXb4DL6QKBgQC12H/QvWdzVGUrhZTBR8jmxoLOGH2VoRbA3YbOmgUAqocx+tDu\nLjpI9yqcMZSMGiquJHzX1i/XY4fiyM5JgbNl8hUOuJR9b/QqvP03Cz/ZwctikzmL\nXQG3lGe11c+1J3XQ27pXV3K0rUVhzVKYPadS8dEuW6e1/eZFLpKM/fGXwQKBgC1g\nrNtGt6+0oXMwjqbgbsnSpQVx8Vb5JZaUXRttDXghEznJzJdjw92nyP5NR5h+Bc+Y\ns+k0xLSaksOrgEl4vUUGs4ySnsCSOTKj2MiPFLVQbypx/I5GAFIS0TtJmlsbxmAC\nYd+RLJ9hbmR8DwIS+JAJxPMhvNK5BsVWevnYZUG5AoGAVxZPy+hlJys8I0tgPNXe\n+F//yCGV0HSZw7/gLRWxdhQtsnOZoGspuU7EwuMQGTXtMjfhYtADQ2vaA5tsR0Uz\nE+QdjhZ8/buAPQ1xbyzQ8WOVs75umWRu0vxKw5WlEEMN8hWeRuVs1jxsUFVeYkh+\n3uM/gSu71VHH6cy5Z4d50y4=\n-----END PRIVATE KEY-----\n",
 })
 
 export const webhook = https.onRequest(async (request, response) => {
@@ -20,16 +20,6 @@ export const webhook = https.onRequest(async (request, response) => {
         console.log('Dialogflow Request body: ' + JSON.stringify(request.body));
 
 
-        // function getProductInfo(agent) {
-        //     const name = agent.parameters.name;
-        //     return getSpreadsheetData().then(res => {
-        //         res.data.map(person => {
-        //             if (person.Name === name)
-        //                 agent.add(`Here are the details for ${name}. Age: ${person.Age}, Email: ${person.Email}, Phone: ${person.Phone}`);
-
-        //         });
-        //     });
-        // }
 
 
         async function getProduct(agent: WebhookClient) {
@@ -207,18 +197,6 @@ export const webhook = https.onRequest(async (request, response) => {
             const productName = parseInt(agent.parameters.productName);
             let products: any[];
 
-            // // getting data from sheet
-            // await axios.get('https://sheetdb.io/api/v1/jjabi12qzr5q4')
-            //     .then((res) => {
-            //         console.log("data: ", res);
-            //         console.log("data: ", res.data);
-            //         data = res.data
-            //     })
-            //     .catch(e => {
-            //         console.log("error in getting sheet data: ", e);
-            //         agent.add("sorry I am currently unavailable, please try again later");
-            //         return
-            //     })
 
             // getting data from woocommerece 
             await Promise.all([
